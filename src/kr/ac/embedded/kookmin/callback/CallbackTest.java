@@ -16,14 +16,13 @@ public class CallbackTest implements OnMaxNumberCb {
 		for ( int i=1; i<=11; i++) {
 			total.addNumber(i);
 		}
-		
 		System.out.println("Total is" + total.getTotal());
 	}
 
 	@Override
 	public void onMaxNumber(int number, int exceed) {
 		// TODO Auto-generated method stub
-		// 구현하시오 //
+		System.out.println("Current sum is "+number+" ans exceeds "+exceed);
 	}
 	
 

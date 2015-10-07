@@ -8,6 +8,7 @@ public class Boat {
 	
 	public int getLength() {
 		  /** **/
+		return length;
 	}
 	
 	public void move() {
